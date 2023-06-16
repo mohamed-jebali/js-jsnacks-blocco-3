@@ -1,6 +1,6 @@
 <template>
     <li>
-        {{linkPromp.tipo}}
+        {{linkProp.tipo}}
     </li>
 </template>
 
@@ -10,20 +10,16 @@
 import { createApp } from 'vue';
 import NavLink from './NavLink.vue';
 export default{
-    name:SingleLink,
+    name:'SingleLink',
 
-  components:{
-    NavLink,
-  },
-  promps:{
-    item:String
+  props:{
+    item: String
   }
 }
 
 </script>
 
 <style lang="scss">
-
     
 </style>
 

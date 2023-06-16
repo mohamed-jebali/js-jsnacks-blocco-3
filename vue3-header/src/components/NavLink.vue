@@ -1,7 +1,7 @@
 <template>
     <ul>
         <SingleLink v-for="item in frutta"
-        :linkPromp = 'item'
+        :linkProp = 'item'
         />
     </ul>
 </template>
@@ -12,7 +12,7 @@
 import { createApp } from 'vue'
 import AppHeader from './AppHeaderLink.vue';
 export default{
-    name:NavLink,
+    name:'NavLink',
 
   components:{
     SingleLink,

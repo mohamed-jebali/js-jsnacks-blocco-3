@@ -9,7 +9,7 @@
 <script>
 import { createApp } from 'vue'
 export default{
-    name:AppHeader,
+    name:'AppHeader',
 
   components:{
     AppHeader,
