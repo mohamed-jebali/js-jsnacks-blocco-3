@@ -13,7 +13,7 @@ export default{
     name:'SingleLink',
 
   props:{
-    item: String
+    linkProp: String
   }
 }
 
