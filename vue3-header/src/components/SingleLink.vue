@@ -1,20 +1,21 @@
 <template>
-    <header>
-        <NavLink/>
-    </header>
+    <li>
+        {{linkPromp.tipo}}
+    </li>
 </template>
 
 
 
 <script>
-import { createApp } from 'vue'
+import { createApp } from 'vue';
+import NavLink from './NavLink.vue';
 export default{
-    name:AppHeader,
+    name:SingleLink,
 
   components:{
-    AppHeader,
-    NavLink
-  }
+    NavLink,
+  },
+  promps:linkPromp,
 }
 
 </script>

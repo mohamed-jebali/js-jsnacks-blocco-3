@@ -6,7 +6,7 @@ export default{
     name:AppHeader,
 
   components:{
-    AppHeader
+    AppHeader,
   }
 }
 
