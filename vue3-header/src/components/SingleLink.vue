@@ -15,7 +15,9 @@ export default{
   components:{
     NavLink,
   },
-  promps:linkPromp,
+  promps:{
+    item:String
+  }
 }
 
 </script>
